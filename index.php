@@ -317,7 +317,7 @@ function validation()
  
 <?php
     
-$blog_select = "select * from  nishantjangid order by 1 DESC LIMIT 0,4"
+$blog_select = "select * from  nishantjangid order by 1 DESC LIMIT 0,4";
 $run_blog = mysqli_query($con,$blog_select);
 
 while($row_blog = mysqli_fetch_array($run_blog)){
